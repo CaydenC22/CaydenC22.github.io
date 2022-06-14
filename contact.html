@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Lawn Care</title>
+	<meta charset="utf-8">
+	<link href="lawncare.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Lawn Care</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Quotes</a></li>
+				<li><a href="table.html">Packages</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Apply For A Quote Now!</h2>
+			<h3>Required fields are marked with an asterisk*</h3>
+			<form method="post" id="order" action="https://webdevbasics.net/scripts/demo.php">
+				<label for="myFname">*First Name:</label>
+				<input type="text" name="myFname" id="myFname" required="required">
+				<label for="myLname">*Last Name:</label>
+				<input type="text" name="myLname" id="myLname" required="required">
+				<label for="myEmail">*Email:</label>
+				<input type="email" name="myEmail" id="myEmail" required="required">
+				<label for="myPhone">Phone:</label>
+				<input type="tel" name="myPhone" id="myPhone" maxlength="12">
+				<label for="myComments">*Comments</label>
+				<textarea name="myComments" id="myComments" cols="30" rows="2" required="required"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</main>
+		<footer>
+					Copyright &copy; 2022 Lawn Care<br>
+					<a href="mailto:Lawn.Care@LawnCare.com"></a>
+					Lawn.Care@LawnCare.com
+		</footer>
+	</div>
+</body>
+
+</html>

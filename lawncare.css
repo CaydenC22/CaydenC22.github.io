@@ -1,0 +1,128 @@
+body {
+	background-color: #EAEAEA;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	padding: 1px 20px 20px 30px;
+	display: block;
+	background-color: #FFFFFF;
+	margin-left: 209px;
+	overflow: auto;
+	background-image: linear-gradient(to top, #008000, #FFFFFF)
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+header {
+	background-image: url(grass.gif);
+	background-size: 15%;
+	color: #FFFFFF;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+nav {
+	font-weight: bold;
+	font-size: 110%;
+	padding: 1.5em;
+	width: 160px;
+	text-align: left;
+	float: left;
+}
+h2 {
+	color: #000000;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 0;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 75%;
+	text-align: center;
+	font-style: italic;
+	padding: 2em;
+	margin-left: 209px;
+	background-color: #FFFFFF;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-image: linear-gradient(to top, #008000, #33CC33);
+	background-repeat: no-repeat;
+	background-size: 20% 100%;
+}
+#lawnmower {
+	height: 300px;
+	background-image: url(mower.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	background-position: center;
+}
+#sprayer {
+	height: 300px;
+	background-image: url(spray.jpg);
+	background-size: 33%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	background-position: right;
+}
+#lawn {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: 11% 100%;
+}
+* {
+	box-sizing: border-box;
+}
+table {
+	border: 2px solid #000000;
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: 0.5em;
+	border: 2px solid #000000;
+	font-size: 120%
+}
+td {
+	text-align: center;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input,
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #000033;
+	font-weight: normal;
+}
+p {
+	font-size: 120%
+}
